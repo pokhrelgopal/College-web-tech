@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Technology : lab-1</title>
+  </head>
+  <body>
+    <header>
+      <ul type="none">
+        <li><a href="#">Home</a></li>
+        <li><a href="#image-gallery">Gallery</a></li>
+        <li><a href="bio.html">Bio</a></li>
+        <li><a href="#calender">Calender</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </header>
+    <div class="container-main">
+      <div class="container hero-section">
+        <div class="container inside-hero-one">
+          <h1>
+            Welcome To My Website.<br />It is made using plain HTML and CSS.<br />You
+            can navigate the site from the header.
+          </h1>
+          <button class="btn-view-bio"><a href="bio.html">View Bio</a></button>
+        </div>
+        <div class="container inside-hero-two">
+          <img src="img/hero.svg" alt="" height="400px" />
+        </div>
+      </div>
+      <h1 style="padding-top: 20px" id="image-gallery">Image Gallery</h1>
+      <div class="container image-gallery">
+        <div class="container-image">
+          <img src="https://picsum.photos/250" class="responsive" />
+        </div>
+        <div class="container-image">
+          <img src="https://picsum.photos/250" class="responsive" />
+        </div>
+        <div class="container-image">
+          <img src="https://picsum.photos/250" class="responsive" />
+        </div>
+        <div class="container-image">
+          <img src="https://picsum.photos/250" class="responsive" />
+        </div>
+      </div>
+      <div class="container image-gallery">
+        <div class="container-image">
+          <img src="https://picsum.photos/250" class="responsive" />
+        </div>
+        <div class="container-image">
+          <img src="https://picsum.photos/250" class="responsive" />
+        </div>
+        <div class="container-image">
+          <img src="https://picsum.photos/250" class="responsive" />
+        </div>
+        <div class="container-image">
+          <img src="https://picsum.photos/250" class="responsive" />
+        </div>
+      </div>
+      <div class="container calender" id="calender">
+        <h1>Calender</h1>
+        <table width="100%" style="margin-top: 30px">
+          <th>Sun</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+          <th class="holiday">Sat</th>
+
+          <tr>
+            <td></td>
+            <td class="background-image">
+              <img
+                src="img/calender-image.png"
+                alt=""
+                height="110px"
+                width="160px"
+                style="margin: 0; padding: 0"
+              />
+            </td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td class="holiday">6</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td class="holiday">13</td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td class="holiday">20</td>
+          </tr>
+          <tr>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td class="holiday">27</td>
+          </tr>
+          <tr>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+            <td></td>
+            <td></td>
+            <td class="holiday"></td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="container-contact" id="contact">
+        <h1>Contact Us</h1>
+        <div class="contact-form">
+          <form action="">
+            <table>
+              <tr>
+                <td>Name</td>
+                <td>
+                  <input
+                    type="text"
+                    placeholder="your name here"
+                    name=""
+                    id=""
+                    size="40"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Email</td>
+                <td>
+                  <input
+                    type="email"
+                    placeholder="example@gmail.com"
+                    name=""
+                    id=""
+                    size="40"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Gender</td>
+                <td class="radio-class">
+                  <input class="radio" type="radio" name="1" id="" />
+                  Male
+                  <input class="radio" type="radio" name="1" id="" />
+                  Female
+                  <input class="radio" type="radio" name="1" id="" />
+                  Others
+                </td>
+              </tr>
+              <tr>
+                <td>Address</td>
+                <td>
+                  <label for="address"></label>
+                  <select name="address" id="address">
+                    <option value="Kathmandu">Kathmandu</option>
+                    <option value="Jhapa">Jhapa</option>
+                    <option value="Pokhara">Pokhara</option>
+                    <option value="Butwal">Butwal</option>
+                    <option value="Bhaktapur">Bhaktapur</option>
+                    <option value="Lalitpur">Lalitpur</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>Message</td>
+                <td>
+                  <textarea name="" id="" cols="63" rows="5"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <button class="submit-button" type="submit">Submit</button>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

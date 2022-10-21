@@ -1,0 +1,337 @@
+@import url(https://fonts.bunny.net/css?family=alata:400);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+/* Navbar Section Starts Here */
+
+header ul {
+    background-color: #c5e7dc;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px 10px;
+
+}
+
+header ul li {
+    padding: 0 20px;
+}
+
+header ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+header ul li a:hover {
+    color:
+        #67595E;
+    transition: .1s ease-in;
+}
+
+/* Navbar Section Ends Here */
+
+/* Hero Section Starts Here */
+.container-main {
+    margin: 2% 10%;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inside-hero-one {
+    margin-top: 10%;
+}
+
+.inside-hero-two {
+    margin-top: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-view-bio {
+    margin-top: 40px;
+    padding: 10px 13px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 7px;
+    background-color: #167D7F;
+}
+
+.btn-view-bio:hover {
+    background-color: white;
+    border: 1px solid black;
+    transition: .1s ease;
+}
+
+.btn-view-bio a {
+    text-decoration: none;
+    color: white
+}
+
+.btn-view-bio a:hover {
+    text-decoration: none;
+    color: black
+}
+
+/* Hero Section Ends Here */
+
+/* Gallery section starts here  */
+
+.image-gallery {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.image-gallery img {
+    border-radius: 10px;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+/* Gallery section Ends here  */
+
+/*Calender section Starts here  */
+.calender {
+    margin-top: 5%;
+}
+
+.calender table th {
+    background-color: #98D7C2;
+    font-size: 25px;
+    width: 200px;
+    padding: 30px;
+}
+
+.calender table tr td {
+    font-size: 25px;
+    text-align: center;
+    background-color: #f0fcf4;
+    padding: 40px;
+}
+
+.calender table th.holiday,
+.calender table tr td.holiday {
+    background-color: rgb(236, 77, 77);
+    color: white;
+}
+
+.calender table tr td.background-image {
+    margin: 0;
+    padding: 0;
+}
+
+/*Calender section Ends here  */
+
+/* Bio section Starts here */
+
+.bio-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.bio-left {
+    padding: 20px 5px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #167D7F;
+    width: 20%;
+    height: 130vh;
+    display: flex;
+    color: white;
+}
+
+.bio-details {
+    margin-bottom: 20px;
+}
+
+strong {
+    letter-spacing: 1px;
+}
+
+.bio-left table {
+
+    align-items: center;
+    border-spacing: 10px;
+}
+
+.bio-details ul li {
+    padding: 5px 15px;
+}
+
+.bio-right {
+    padding: 0px 40px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bio-right h1,
+h2 {
+    letter-spacing: 1.5px;
+    margin-top: 50px;
+}
+
+.bio-right table {
+    margin-top: 40px;
+    align-items: center;
+    border-spacing: 10px;
+}
+
+.container-skill-set {
+    margin-top: 20px;
+    background-color: #c0d8d9;
+    width: 100%;
+    height: 30px;
+    z-index: -1;
+
+}
+
+.skill-set {
+    margin-bottom: 50px;
+}
+
+.skill-set h3 {
+    color: white;
+    letter-spacing: 1.5px;
+    padding-left: 10px;
+}
+
+.container-percent {
+    background-color: #045557;
+    height: 30px;
+
+}
+
+.sticky {
+    position: relative;
+}
+
+.sticky a {
+    color: rgb(252, 251, 251);
+    text-decoration: none;
+    position: fixed;
+    top: 8px;
+    right: 16px;
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 15px 45px;
+    background-color: #045557;
+}
+
+.sticky a:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: .3s ease-in-out;
+    transform-origin: 20% bottom;
+}
+
+/* Bio section Ends here*/
+
+/* Contact Us Starts Here  */
+
+.container-contact {
+    padding: 40px 0;
+}
+
+.contact-form {
+    margin-top: 100px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.contact-form form {
+    color: black;
+    background-color: #a7ddde;
+    width: 60%;
+    height: 80%;
+    border-radius: 20px;
+}
+
+.contact-form form table {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-spacing: 30px;
+}
+
+.contact-form form table input {
+    align-items: center;
+    padding: 5px;
+    font-size: 20px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-form form table textarea {
+    border-radius: 5px;
+    border: none;
+}
+
+td.radio-class {
+    display: flex;
+    justify-content: space-between;
+}
+
+input.radio {
+    width: 20px;
+    height: 20px;
+}
+
+select#address {
+    height: 40px;
+    width: auto;
+    padding: 7px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+select#address option {}
+
+button.submit-button {
+    color: rgb(252, 251, 251);
+    border: none;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #217475;
+}
+
+button.submit-button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(3, 57, 19);
+    transition: .3s ease-in-out;
+    transform-origin: 20% bottom;
+}
+
+/* Contact Us Ends Here  */
