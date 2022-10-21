@@ -314,7 +314,6 @@ select#address {
     border-radius: 5px;
 }
 
-select#address option {}
 
 button.submit-button {
     color: rgb(252, 251, 251);
